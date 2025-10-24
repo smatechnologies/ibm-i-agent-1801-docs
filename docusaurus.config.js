@@ -8,7 +8,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'smatechnologies',
-  projectName: 'imb-i-agent-1801-docs',
+  projectName: 'ibm-i-agent-1801-docs',
   themeConfig: {
     navbar: {
       title: 'Help',
