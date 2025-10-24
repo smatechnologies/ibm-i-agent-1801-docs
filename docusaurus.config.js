@@ -3,7 +3,7 @@ module.exports = {
   title: 'SMA Technologies Help',
   tagline: 'IBM i Agent 18.1',
   url: 'https://help.smatechnologies.com',
-  baseUrl: '/opcon/agents/ibm-i-1801',
+  baseUrl: '/opcon/agents/ibm-i-1801/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -44,11 +44,11 @@ module.exports = {
       },
     ],
   ],
-  plugins: [
-    [
+//  plugins: [
+//    [
 //      require.resolve('@cmfcmf/docusaurus-search-local'), 
-      {
-      }
-    ],
-  ],
+//      {
+//      }
+//    ],
+//  ],
 };
