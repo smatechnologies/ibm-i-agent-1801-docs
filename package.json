@@ -27,7 +27,7 @@
     "url-loader": "^4.1.1"
   },
   "resolutions": {
-    "schema-utils": "4.3.2"
+    "webpack": "5.99.9"
   },
   "browserslist": {
     "production": [
