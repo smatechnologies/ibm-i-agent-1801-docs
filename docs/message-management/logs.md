@@ -48,7 +48,7 @@ Main Menu > Message management menu (#2) > Message management logs (#2)
 | -----            | -------                | -----------            | 
 | Search content   |                        | To quickly search for a particular log entry, enter up to 10 characters of any log content value and press <**Enter**>. Any value that appears on the log detail display may be searched for, even though not all values appear in the list display.               |
 | Opt              | None                   | <**Tab**> to a row in the table and enter an option.             |
-| IBM i Job Name   | IBM i Name Rules (Refer to [IBM i Name Rules](../configuration/configuration.md#ibm-i-name-rules)) |  The name portion of an IBM i job. The IBM i full job names (per instance of a job) include the name, the submitting user name, and a unique job number. The name portion is common to as many instances of the same job definition as may be executed. The IBM i permits more than one instance of the same job name to be executed concurrently. |
+| IBM i Job Name   | IBM i Name Rules (Refer to [IBM i Name Rules](../configuration/configuration-settings.md#ibm-i-name-rules)) |  The name portion of an IBM i job. The IBM i full job names (per instance of a job) include the name, the submitting user name, and a unique job number. The name portion is common to as many instances of the same job definition as may be executed. The IBM i permits more than one instance of the same job name to be executed concurrently. |
 | IBM i Job Number |                        | The IBM i job number. The job number identifies unique jobs using the same name on the list display.      |
 | SAM Job Name     |                        | The name portion of the full job identifier assigned by OpCon. (Alternates with IBM i Job name)   |
 | SAM Job Number   |                        | The numeric ID portion of the full job identifier assigned by OpCon. (Alternates with IBM i) |
@@ -208,7 +208,7 @@ Main Menu > Message management menu (#2) > Display Captured Message Data Log (# 
 - **MSGF**: The name of the IBM i Message File that contains the definition of the Message ID that was trapped. 
 
   :::tip
-  The remaining fields on this display are the same as documented for the SCANSPLF utility in [Events and Utilities Menu](../events-utilities/captured-data-response-rules.md/#display-captured-data-log-detail).
+  The remaining fields on this display are the same as documented for the SCANSPLF utility in [Events and Utilities Menu](../events-utilities/captured-data-response-rules.md#display-captured-data-log-detail).
   :::
 
 
